@@ -1,13 +1,23 @@
-# 123 React Course
+# 112-2 網站前端設計與開發
 
-## Section 1 - Git
+## 課程簡介
 
-### Git commands
+這是開設在國立雲林科技大學資訊工程系 112 學年度第 2 學期的選修課程，其課程設計主要是作為引導學生進入前端工程領域的初階課程。
 
-- git init
-- git push
-- git pull
-- git commit
-- git status
-- git branch
+在課程中，將介紹網路的運作原理、HTML/CSS/JavaScript 等建構網頁的標記語言與程式語言、GIT 的原理與指令操作、終端機與命令行介面操作，同時也會在課程當中穿插介紹一些資訊安全的概念。
 
+至於在前端技術部分，則是以 React/NextJS 作為主要的開發框架，並以「雲林旅遊景點導覽」專題為例，進一步讓學習者透過動手做，瞭解到如何運用前端框架，介接運輸資料流通服務 [TDX](https://tdx.transportdata.tw/api-service/swagger)，進而開始對「前端工程」有概念性的理解，並且能夠知道如何定義問題、找到答案。
+
+不過，也不要期待經過一個學期的學習後，就能馬上成為前端工程師。要成為優秀的前端工程師，除了技術性的硬實力之外，更重要的還是你的軟實力，包含：
+- 對未知領域的求知慾
+- 自學能力
+- 能問好問題
+
+## 單元介紹
+
+- [Command Line 常用指令](pdfs/cli.pdf)
+- 認識 GIT 與常用指令
+- HTML / CSS / JavaScript
+  - HTML 介紹與常用的標記元素
+  - CSS 介紹與 Tailwind CSS
+  - JavaScript 與 jQuery
