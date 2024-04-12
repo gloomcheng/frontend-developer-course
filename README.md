@@ -16,8 +16,14 @@
 ## 單元介紹
 
 - [Command Line 常用指令](pdfs/cli.pdf)
-- 認識 GIT 與常用指令
+- [認識 GIT 與常用指令](pdfs/git.pdf)
 - HTML / CSS / JavaScript
   - HTML 介紹與常用的標記元素
   - CSS 介紹與 Tailwind CSS
   - JavaScript 與 jQuery
+
+## 資料夾結構
+
+- examples: 各週課程練習的範例
+- slides: 課程講義（文字檔）
+- pdfs: 課程講義（PDF）
