@@ -1,29 +1,106 @@
-# 112-2 網站前端設計與開發
+# Web Development Basics
 
-## 課程簡介
+Welcome to the **Web Development Basics** repository! This course is designed to help beginners build a strong foundation in web development. The curriculum covers essential tools, languages, and concepts necessary to start your journey as a web developer.
 
-這是開設在國立雲林科技大學資訊工程系 112 學年度第 2 學期的選修課程，其課程設計主要是作為引導學生進入前端工程領域的初階課程。
+---
 
-在課程中，將介紹網路的運作原理、HTML/CSS/JavaScript 等建構網頁的標記語言與程式語言、GIT 的原理與指令操作、終端機與命令行介面操作，同時也會在課程當中穿插介紹一些資訊安全的概念。
+## **Course Outline**
 
-至於在前端技術部分，則是以 React/NextJS 作為主要的開發框架，並以「雲林旅遊景點導覽」專題為例，進一步讓學習者透過動手做，瞭解到如何運用前端框架，介接運輸資料流通服務 [TDX](https://tdx.transportdata.tw/api-service/swagger)，進而開始對「前端工程」有概念性的理解，並且能夠知道如何定義問題、找到答案。
+### **1. Development Tools**
+- **Git**
+  - Learn version control basics: `git init`, `git add`, `git commit`.
+  - Learn ssh private/public key generation and usage.
+  - Understand branching, merging, and resolving conflicts.
+  - Collaborate using GitHub.
 
-不過，也不要期待經過一個學期的學習後，就能馬上成為前端工程師。要成為優秀的前端工程師，除了技術性的硬實力之外，更重要的還是你的軟實力，包含：
-- 對未知領域的求知慾
-- 自學能力
-- 能問好問題
+- **Visual Studio Code**
+  - Set up your coding environment.
+  - Install extensions like Prettier, ESLint, and Live Server.
+  - Master productivity shortcuts.
 
-## 單元介紹
+- **Terminal**
+  - Learn how to install WSL and use it to run Linux on Windows.
+  - Learn how to use the terminal.
+  - Learn how to use the command line.
+  - Learn common commands.
 
-- [Command Line 常用指令](pdfs/cli.pdf)
-- [認識 GIT 與常用指令](pdfs/git.pdf)
-- HTML / CSS / JavaScript
-  - HTML 介紹與常用的標記元素
-  - CSS 介紹與 Tailwind CSS
-  - JavaScript 與 jQuery
+---
 
-## 資料夾結構
+### **2. Web Development Fundamentals**
+- **HTML**
+  - Build structured web pages using tags like `<div>`, `<a>`, `<img>`, and `<form>`.
+  - Explore HTML5 features such as `<video>` and `<canvas>`.
 
-- examples: 各週課程練習的範例
-- slides: 課程講義（文字檔）
-- pdfs: 課程講義（PDF）
+- **CSS**
+  - Style your pages with selectors, the box model, and layouts (Flexbox, Grid).
+  - Create responsive designs and use CSS Variables.
+
+- **JavaScript**
+  - Learn the basics of variables, loops, and functions.
+  - Interact with the DOM (`document.querySelector`, event listeners).
+  - Fetch data using APIs (`fetch`, `async/await`).
+
+---
+
+### **3. Networking Basics**
+- **HTTP**
+  - Understand status codes (200, 404, 500).
+  - Explore HTTP methods (GET, POST, PUT, DELETE).
+
+- **RESTful APIs**
+  - Learn how to design and consume APIs.
+  - Use CRUD operations and manage data with JSON.
+
+- **JSON**
+  - Work with JSON data in JavaScript (`JSON.stringify`, `JSON.parse`).
+
+---
+
+## **How to Use This Repository**
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/web-dev-basics.git
+   cd web-dev-basics
+   ```
+
+2. Follow the instructions in the corresponding directories for each module:
+   - `/html-css/`: HTML and CSS exercises.
+   - `/javascript/`: JavaScript exercises.
+   - `/api/`: REST API and JSON practices.
+
+3. Explore the **`/projects/`** folder for integrated challenges.
+
+
+## **Suggested Learning Path**
+1. Start with `html-css/` to understand web structure and design.
+2. Move to `javascript/` to learn interactive functionalities.
+3. Complete `api/` to connect your front-end with APIs.
+4. Use Git and GitHub to track and manage your code changes.
+
+---
+
+## **Prerequisites**
+- Basic knowledge of how to use a computer.
+- Familiarity with command-line tools is a plus (optional).
+
+---
+
+## **Project Contributions**
+Contributions are welcome! Feel free to submit pull requests for fixes, improvements, or additional exercises.
+
+1. Fork this repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes and push:
+   ```bash
+   git push origin feature/your-feature
+   ```
+4. Open a pull request.
+
+---
+
+## **Contact**
+For questions or suggestions, please reach out via Issues or email at [gloomcheng@gmail.com](mailto:gloomcheng@gmail.com).
